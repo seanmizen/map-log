@@ -1,0 +1,24 @@
+{
+    "name": "maplog",
+    "description": "see where you've been virtually exploring",
+    "manifest_version": 1,
+    "version": "1", "author": "Sean Mizen",
+    "browser_action":
+    {
+        "default_icon": "tab-icon.png",  
+        "default_title": "maplog"
+    },
+    "permissions":
+    [
+        "https://maps.google.com/*",
+        "https://maps.google.co.uk/*",
+        "https://www.google.co.uk/maps/*",
+        "https://www.google.com/maps/*"        
+    ],
+
+    "icons":
+    {
+        "128": "icon128.png"
+    }
+    
+}
